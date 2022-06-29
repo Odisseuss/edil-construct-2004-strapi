@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "membri_echipa",
+  "info": {
+    "singularName": "membru-echipa",
+    "pluralName": "membri-echipa",
+    "displayName": "MembruEchipa"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nume": {
+      "type": "string"
+    },
+    "rol": {
+      "type": "string"
+    },
+    "descriere": {
+      "type": "text"
+    },
+    "poza": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "social": {
+      "displayName": "Social",
+      "type": "component",
+      "repeatable": false,
+      "component": "social.social"
+    }
+  }
+}

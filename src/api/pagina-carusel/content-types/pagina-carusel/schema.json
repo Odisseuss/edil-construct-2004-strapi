@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pagina_carusels",
+  "info": {
+    "singularName": "pagina-carusel",
+    "pluralName": "pagina-carusels",
+    "displayName": "pagina carusel",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "subtitlu": {
+      "type": "string"
+    },
+    "titlu": {
+      "type": "richtext"
+    },
+    "buton": {
+      "type": "string"
+    },
+    "poza": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "ordine": {
+      "type": "integer"
+    }
+  }
+}

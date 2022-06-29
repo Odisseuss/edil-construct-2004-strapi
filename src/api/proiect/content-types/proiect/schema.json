@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proiecte",
+  "info": {
+    "singularName": "proiect",
+    "pluralName": "proiecte",
+    "displayName": "Proiecte"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nume": {
+      "type": "string"
+    },
+    "thumbnail": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "poze": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "tip": {
+      "type": "string"
+    }
+  }
+}

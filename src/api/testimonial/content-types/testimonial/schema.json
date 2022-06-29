@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "testimoniale",
+  "info": {
+    "singularName": "testimonial",
+    "pluralName": "testimoniale",
+    "displayName": "Testimoniale"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nume": {
+      "type": "string"
+    },
+    "profesie": {
+      "type": "string"
+    },
+    "testimonial": {
+      "type": "text"
+    },
+    "titlu": {
+      "type": "string"
+    },
+    "poza": {
+      "type": "string"
+    }
+  }
+}
